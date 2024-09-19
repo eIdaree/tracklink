@@ -2,10 +2,11 @@
   "name": "crypto",
   "version": "1.0.0",
   "description": "",
-  "main": "server/index.js",
+  "main": "server/index.js",    
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+      "build": "echo \"Building project...\"",
+      "start": "node server/index.js" 
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
