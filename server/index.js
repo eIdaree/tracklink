@@ -25,3 +25,7 @@ app.get('/track', async (req, res) => {
     res.status(500).send('Error processing redirection');
   }
 });
+
+app.listen(3000, () => {
+  console.log('Server is running on port 3000');
+});
